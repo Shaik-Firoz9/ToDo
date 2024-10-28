@@ -1,5 +1,7 @@
 import React, {Component} from "react"
 import TodoList from "./components/TodoList"
+import $ from 'jquery';
+import Popper from 'popper.js';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import GoogleLogin from "react-google-login";
 
