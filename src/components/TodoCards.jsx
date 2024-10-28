@@ -1,6 +1,6 @@
 import React, {useState} from "react"
 import {
-    Card, Button, CardImg, CardTitle, CardText, CardBody
+     CardText, CardBody
 } from 'reactstrap';
 import EditTask from "../modals/EditTask"
 const TodoCards = ({ taskObj, index, deleteTodo,updateListArray }) => {
